@@ -5,7 +5,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
 RUN pip install --no-cache-dir gdown
 
-RUN gdown --id 1D36IMkfT23_xFwxeG0wDn9imunBVM19J \
+RUN gdown --id 1R5SQ-1SltQBP8uXdwPAHjgRBCzbvHOh_ \
     && unzip models.zip \
     && rm models.zip
 
