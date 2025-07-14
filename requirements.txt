@@ -1,0 +1,10 @@
+torch==2.1.0
+transformers==4.41.1
+numpy==1.26.4
+pytesseract
+pdf2image
+PyMuPDF
+joblib
+scikit-learn
+fastapi
+uvicorn
